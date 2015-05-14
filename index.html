@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sketch Pad mini project</title>
+    <meta charset=utf-8>
+    <meta name="description" content="JS/Jquery Project">
+    <meta name="author" content="Nick Foster">    
+    <link href="sketchstyles.css" rel="stylesheet" media="screen">
+    <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <header>
+        <h1>Sketch!</h1>
+        <h4>Just move your mouse to play!</h4>
+        <div id="buttons">
+            <input type="checkbox" name="borders" /><small>Borders (on/off)  </small>
+            <button id="button1" value="1">default</button>
+            <button id="button2" value="2">Random Color sketch</button>
+            <button id="button3" value="3">Incremental color change</button>            
+            <button id="button4" value="4">Leave a Trail</button>
+            <button id="button5" value="5">Spike!</button>
+        </div>
+    </header>
+    <h2 id="loading_Msg">please wait...</h2>
+    <div id="container"></div>  <!--Le Grid-->
+    
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script> 
+    <!-- <script src="lib/jquery-1.10.2.min.js"></script> -->
+    <script src="sketch.js"></script> 
+</body>
+</html>
