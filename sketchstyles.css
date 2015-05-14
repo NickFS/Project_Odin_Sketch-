@@ -1,0 +1,52 @@
+body {
+	background-color: #e8f4f8;
+	font-family: 'Pacifico', cursive;
+	font-weight: 100;
+}
+
+
+header {
+	color: #2980b9;
+	text-align: center;
+	margin: 5px;
+}
+
+
+#container {
+	max-width: 960px;
+	margin: auto;
+}
+
+.box {
+	background-color: #3498db;
+    float: left;
+	-webkit-box-sizing: border-box;		
+	-moz-box-sizing: border-box;		
+	box-sizing: border-box;
+}
+
+#button1, #button2, #button3, #button4, #button5{
+	color: #2980b9;
+	border-radius: 30px;
+}
+
+.simpleColor {
+	background-color: #E4F1FE;
+}
+
+
+
+.rotate15 {
+	-moz-transform: scale(1) rotate(15deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+	-webkit-transform: scale(1) rotate(15deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+	-o-transform: scale(1) rotate(15deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+	-ms-transform: scale(1) rotate(15deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+	transform: scale(1) rotate(15deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+}
+
+#loading_Msg {
+	color: #3498db;
+	text-align: center;
+	text-shadow: 2px 2px 12px #0a2e8a;
+	filter: dropshadow(color=#0a2e8a, offx=2, offy=2);
+}
